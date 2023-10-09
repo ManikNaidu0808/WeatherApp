@@ -116,7 +116,7 @@ const WeatherApp = () => {
       <form onSubmit={handleSearch}>
         <input type="text" name="location" placeholder="Enter location" />
         <button type="submit">Search</button>
-        <button onClick={handleGeolocation}>
+        <button onClick={handleGeolocation}><span>Current Location </span>
           <FaSearchLocation />
         </button>
         <div className="temptoggle-container">
